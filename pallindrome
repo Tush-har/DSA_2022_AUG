@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+    {
+   //Pallindrome number or not
+    int n,rev=0,temp,d;
+    scanf("%d",&n);
+    temp=n;
+    while(temp!=0){
+          d=temp%10;
+          rev=rev*10+d;
+          temp=temp/10;
+         
+              }
+                 if(rev==n){
+                  printf("Number is pallindrome %d",n);
+                              }
+              else{
+              printf("Number is not pallindrome");
+    
+                }
+    }
